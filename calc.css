@@ -1,0 +1,98 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 100vw;
+    height: 100vh;
+    background: grey;
+}
+.main {
+    border: 3px solid black;
+    display: flex;
+    width: 450px;
+    height: 600px;
+    flex-direction: column;
+    /* flex-wrap: wrap; */
+    gap: 10px;
+    background: white;
+    padding: 7px;
+    border-radius: 20px;
+}
+
+
+
+.screen {
+    width: 100%;
+    height: 12%;
+    text-align: right;
+    font-size:50px;
+}
+
+.over-screen {
+    height: 8%;
+    width: 100%;
+    background: grey;
+    text-align: right;
+    border-radius: 7px;
+    font-size: 30px;
+    
+}
+
+.clear-delete {
+    height: 90px;
+    width: 100%;
+    padding: 0;
+    margin: 0;
+    justify-content: space-around;
+    display: flex;
+}
+
+.delete {
+    height: 100%;
+    width: 48%;
+    border-radius: 7px;
+}
+
+.clear {
+    height: 100%;
+    width: 48%;
+    border-radius: 7px;
+}
+
+.buttons {
+    display: flex;
+    flex-wrap: wrap;
+    height: 370px;
+    gap: 5px;
+    justify-content: space-around;
+    align-items: space-around;
+}
+
+.btn {
+    border: 1px;
+    width: 108.75px;
+    height: 88.75px;
+    border-radius: 7px;
+}
+
+.operators {
+    border: 1px;
+    width: 108.75px;
+    height: 88.75px;
+    border-radius: 7px;
+}
+
+.equality {
+    border: 1px;
+    width: 108.75px;
+    height: 88.75px;
+    border-radius: 7px;
+}
+
+.dot {
+    border: 1px;
+    width: 108.75px;
+    height: 88.75px;
+    border-radius: 7px;
+}
